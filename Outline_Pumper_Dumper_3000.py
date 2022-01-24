@@ -1,16 +1,9 @@
 import tkinter as tk
-from tkinter import filedialog, Entry, messagebox
+from tkinter import filedialog, Entry, messagebox,colorchooser
 from PIL import ImageTk, Image, ImageEnhance
 import os
 import sys
 import numpy as np
-from tkinter import colorchooser
-
-import tkinter as tk
-from tkinter import filedialog, Entry, messagebox
-from PIL import ImageTk, Image
-
-
 
 def openfile0(xnum,ynum):
     global filename0
